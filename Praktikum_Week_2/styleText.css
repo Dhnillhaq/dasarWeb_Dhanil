@@ -1,0 +1,7 @@
+.tulisan-warna{
+    color: blue;
+    text-align: center;
+    border-bottom: 1px solid black;
+    text-decoration: underline;
+    letter-spacing: 5px;
+}

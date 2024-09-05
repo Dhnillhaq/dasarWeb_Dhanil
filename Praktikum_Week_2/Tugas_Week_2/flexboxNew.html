@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Flexbox</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ddd;
+            line-height: 1.65;
+            padding-bottom: 1000px;
+        }
+
+        .container-satu {
+            width: 800px;
+            margin: 50px auto;
+            background-color: #A8ABAE;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+
+        .sidebar-satu {
+            display: inline;
+            width: 800px;
+        }
+
+        .sidebar-dua {
+            margin-left: 10px;
+            width: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-satu">
+
+        <div class="sidebar-satu">
+            <h3>Baca Juga</h3>
+            <ul>
+                <li><a href="#">Beruang Madu</a></li>
+                <li><a href="#">Beruang Hitam Amerika</a></li>
+                <li><a href="#">Beruang Afrika</a></li>
+                <li><a href="#">Panda</a></li>
+                <li><a href="https://id.wikipedia.org/wiki/Beruang_kungkang">Beruang Kungkang</a></li>
+            </ul>
+        </div>
+        <div class="kolom-utama">
+            <h2>Beruang kutub</h2>
+            <img src="../../Praktikum_Week_1/img/bear.jpg" alt="" width="100px">
+            <p>Beruang kutub (Inggris: polar bear) sering disebut beruang es atau dalam nama ilmiahnya Ursus maritimus
+                adalah mamalia besar dalam famili (keluarga) biologi Ursidae memakan daging. Ia termasuk spesies
+                circumpolar yang terdapat di sekitar benua paling utara bumi, yaitu benua Artik dan termasuk beruang
+                paling karnivora di antara keluarga beruang lainnya. Beruang kutub kadang-kadang juga diklasifikasi
+                sebagai mamalia laut.
+                <br><br>
+                Beruang kutub jantan memiliki berat antara 400–600 kg dan kadang-kadang dapat mencapai lebih dari 800 kg
+                dengan tinggi mencapai lebih dari 2,5 meter. Sedangkan beruang kutub betina hanya separuh dari berat
+                beruang jantan dengan berat antara 200–300 kg dan tinggi sekitar 2 meter. Beruang kutub memiliki
+                indra penciuman yang sangat tajam.
+                <br><br>                    
+                Beruang kutub adalah perenang yang handal karena dapat berenang sejauh 100 Km tanpa berhenti.
+        </div>
+
+        <div class="sidebar-dua">
+            <h3>Sidebar dua</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro modi minima tenetur consectetur ipsa
+                deleniti voluptates, temporibus maxime neque dicta eligendi expedita aliquam voluptatum nam sit,
+                impedit, eius labore non?</p>
+        </div>
+    </div>
+</body>
+
+</html>

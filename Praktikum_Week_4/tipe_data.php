@@ -23,4 +23,3 @@ echo "Bahasa Indonesia: {$nilaiBahasaIndonesia} <br>";
 echo "Rata-rata: {$rataRata} <br>";
 var_dump($rataRata);
 ?>
-?>

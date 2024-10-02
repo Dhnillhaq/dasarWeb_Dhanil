@@ -15,6 +15,7 @@
             echo "Name is empty";
         } else {
             echo $name;
+            
         }
     }
     ?>

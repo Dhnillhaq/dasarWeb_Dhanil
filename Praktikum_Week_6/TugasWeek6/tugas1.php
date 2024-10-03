@@ -24,15 +24,16 @@
             "Jurusan" => "Teknik Listrik",
             "Email" => "dino@gmail.com"
         ]
-        ];
+    ];
 
-        foreach ($dataMahasiswa as $key => $value) {
-            echo "<ul><li>Nama : {$value["Nama"]}</li>";
-            echo "<li>NIM : {$value["Nim"]}</li>";
-            echo "<li>Jurusan : {$value["Jurusan"]}</li>";
-            echo "<li>Email : {$value["Email"]}</li></ul>";
-            echo"<br>";
-        }
+
+    foreach ($dataMahasiswa as $key) {
+        echo "<ul><li>Nama : {$key["Nama"]}</li>";
+        echo "<li>NIM : {$key["Nim"]}</li>";
+        echo "<li>Jurusan : {$key["Jurusan"]}</li>";
+        echo "<li>Email : {$key["Email"]}</li></ul>";
+        echo "<br>";
+    }
     ?>
 </body>
 
